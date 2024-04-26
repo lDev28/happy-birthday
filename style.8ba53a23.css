@@ -137,7 +137,8 @@ header {
         border-radius: 4px;
         transform: translate(-50%, -50%);
         background-color: #fff;
-        transition: all .3s ease-in-out
+        transition: all .3s ease-in-out;
+        display: none;
     }
 
     .menu-btn .bar:nth-of-type(2) {
@@ -232,7 +233,7 @@ header {
         position: relative;
         top: 15px;
         z-index: 2;
-        overflow: hidden
+        overflow: hidden;
     }
 }
 
@@ -243,7 +244,7 @@ header {
         position: relative;
         top: 15px;
         z-index: 2;
-        overflow: hidden
+        overflow: hidden;
     }
 }
 
@@ -298,6 +299,7 @@ header {
 }
 
 .sell__title {
+    margin: -40px 0 90px 0;
     font-size: 90px;
     font-family: Montserrat;
     color: #130e27;
@@ -310,12 +312,12 @@ header {
 }
 
 .sell__text {
-    margin: 40px 0 0;
+    margin: -20px 0 0;
     padding-bottom: 155px;
     max-width: 475px;
     font-family: "PT+Serif";
     font-size: 20px;
-    line-height: 28px;
+    line-height: 18px;
     color: #fff
 }
 
